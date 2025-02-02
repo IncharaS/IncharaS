@@ -1,3 +1,5 @@
+
+```python
 class Engineer:
     def __init__(self):
         self.name = "Inchara"
@@ -27,3 +29,4 @@ inchara_profile = Engineer()
 print(inchara_profile)
 print(inchara_profile.work_life_balance())
 print(inchara_profile.coffee_intake())
+```
