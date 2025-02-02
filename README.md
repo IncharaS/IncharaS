@@ -1,6 +1,3 @@
-# Hi there!
-
-```python
 class Engineer:
     def __init__(self):
         self.name = "Inchara"
@@ -20,7 +17,7 @@ class Engineer:
         return f"{self.name}, a Software Engineer/Data Engineer in the making! 🚀"
 
     def work_life_balance(self):
-        return "print('Work-Life Balance Not Found, Please Try Again Later!')"
+        return 'Work-Life Balance Not Found, Please Try Again Later!'
 
     def coffee_intake(self):
         return "☕" * 5  # Daily Recommended Dose
@@ -30,4 +27,3 @@ inchara_profile = Engineer()
 print(inchara_profile)
 print(inchara_profile.work_life_balance())
 print(inchara_profile.coffee_intake())
-```
