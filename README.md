@@ -4,7 +4,6 @@
 class Engineer:
     def __init__(self):
         self.name = "Inchara"
-        self.dob = "06/28/2000"
         self.education = {
             "college": "Indiana University Bloomington",
             "degree": "Masters in Computer Science"
