@@ -7,16 +7,16 @@ class Engineer:
             "college": "Indiana University Bloomington",
             "degree": "Masters in Computer Science"
         }
-        self.skills = ["Web Development", "ETL", "SQL", "Cloud", "Debugging Life Choices"]
+        self.skills = ["Web Development", "LLM", "SQL", "Cloud", "Debugging Life Choices"]
         self.experience = {
-            "2025": "Data Engineer - Web Developer @ Project 990",
+            "2025": "Software Engineer @ Project 990",
             "2024": "Teaching Assistant: Software Engineering / Database Management",
             "2022": "Software Engineer at Sony India"
         }
-        self.hobbies = ["Automating Everything", "Googling Errors", "Debugging at 3 AM"]
+        self.hobbies = ["Automating Everything", "Building with AI", "Debugging at 3 AM"]
 
     def __str__(self):
-        return f"{self.name}, a Software Engineer/Data Engineer in the making! 🚀"
+        return f"{self.name}, a Software Engineer/ AI Engineer in the making! 🚀"
 
     def work_life_balance(self):
         return 'Work-Life Balance Not Found, Please Try Again Later!'
